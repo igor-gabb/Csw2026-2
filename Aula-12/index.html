@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 12</title>
+    <style>
+        div {
+            border: 2px solid black;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        td {
+            width: 120px;
+            height: 120px;
+            border: 2px solid black;
+            background-color: lightblue;
+        }
+
+        .passar:hover {
+            background-color: red;
+        }
+
+        .clicar:active {
+            background-color: green;
+        }
+
+        a::before {
+            content: "✳ ";
+        }
+
+        a::after {
+            content: " ✳";
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Minhas músicas</h1>
+        <table>
+            <tr>
+                <td class="passar">Passe o mouse</td>
+                <td class="clicar">Clique aqui</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p><a href="https://open.spotify.com">♬ Spotify</a></p>
+        <p><a href="https://www.youtube.com">♬ YouTube</a></p>
+        <p><a href="https://music.amazon.com.br">♬ Amazon Music</a></p>
+    </div>
+</body>
+
+</html>
