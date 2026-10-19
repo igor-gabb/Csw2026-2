@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Top Secret";
+    src: url(css-dowload/Top\ Secret.ttf);
+}
+
+@font-face {
+    font-family: "Gimme Danger";
+    src: url(css-dowload/Gimme\ Danger.ttf);
+}
+
+@font-face {
+    font-family: "LL Cooper";
+    src: url(css-dowload/LLCOOPER.TTF);
+}
+
+h1 {
+    font-family: "Top Secret";
+}
+
+h2 {
+    font-family: "Gimme Danger";
+}
+
+p{
+    font-family: "LL Cooper";
+}
