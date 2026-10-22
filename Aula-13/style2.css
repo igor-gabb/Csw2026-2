@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    margin-bottom: 8px;
+    background-color: rgb(18, 51, 114);
+    border-radius: 5px;
+    gap: 5px;
+}
+.e{
+    display: block;
+    background-color: white;
+    border-style: none;
+}
+
+.c1 {
+    justify-content: flex-start;
+}
+
+.c2 {
+    justify-content: flex-end;
+}
+
+.c3 {
+    justify-content: center;
+}
+
+.c4 {
+    justify-content: space-between;
+}
+
+.c5 {
+    justify-content: space-around;
+}
+
+
+.c6 {
+    width: max-content;
+    height: 600px;
+    align-items: flex-start;
+}
+
+.c7 {
+    width: max-content;
+    height: 600px;
+    align-items: center;
+}
+
+.c8 {
+    width: max-content;
+    height: 600px;
+    align-items: stretch;
+}
+
+.c9 {
+    width: max-content;
+    height: 600px;
+    align-items: flex-end;
+}
+.c10{
+    flex-wrap: wrap;
+    align-content:flex-start;
+    height: 800px;
+}
+.c11{
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 800px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 6px;
+    margin: 5px;
+}
+.i{
+    height: auto;
+}
+.i1 {
+    height: 350px;
+}
+
+.i2 {
+    height: 250px;
+}
+
+.i3 {
+    height: 120px;
+}
+.i4{
+    height: 110px;
+    width: 80px;
+}
+.i5{
+    height: 110px;
+    width: 120px;
+}
+.i6{
+    height: 110px;
+    width: 180px;
+}
+
+.prox.retorn{
+justify-content: space-between;
+}
