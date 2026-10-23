@@ -15,11 +15,12 @@ main {
     height: auto;
     border: 1px solid black;
     margin-bottom: 8px;
-    background-color: rgb(18, 51, 114);
+    background-color: rgba(0, 0, 0, 0.671);
     border-radius: 5px;
     gap: 5px;
 }
-.e{
+
+.e {
     display: block;
     background-color: white;
     border-style: none;
@@ -45,7 +46,6 @@ main {
     justify-content: space-around;
 }
 
-
 .c6 {
     width: max-content;
     height: 600px;
@@ -69,12 +69,14 @@ main {
     height: 600px;
     align-items: flex-end;
 }
-.c10{
+
+.c10 {
     flex-wrap: wrap;
-    align-content:flex-start;
+    align-content: flex-start;
     height: 800px;
 }
-.c11{
+
+.c11 {
     flex-wrap: wrap;
     align-content: space-between;
     height: 800px;
@@ -83,13 +85,15 @@ main {
 .item {
     width: 100px;
     height: 100px;
-    background-color: orange;
+    background-color: rgba(45, 192, 57, 0.685);
     border-radius: 6px;
     margin: 5px;
 }
-.i{
+
+.i {
     height: auto;
 }
+
 .i1 {
     height: 350px;
 }
@@ -101,19 +105,37 @@ main {
 .i3 {
     height: 120px;
 }
-.i4{
+
+.i4 {
     height: 110px;
     width: 80px;
 }
-.i5{
+
+.i5 {
     height: 110px;
     width: 120px;
 }
-.i6{
+
+.i6 {
     height: 110px;
     width: 180px;
 }
 
-.prox.retorn{
-justify-content: space-between;
+h1, h2, h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.retorn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
